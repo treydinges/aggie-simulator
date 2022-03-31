@@ -10,6 +10,16 @@ class Option extends React.Component {
       <div>
         {this.props.item.label}
         <br></br>
+
+        <iframe
+          src={"https://www.youtube.com/embed/" + this.props.item.video_id + "?autoplay=1&playlist=" + this.props.item.video_id + "&loop=1"}
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+          title="video"
+        />
+
+        <br></br>
         {this.props.item.options.map((children) =>
           <button onClick={() => this.onTrigger(children.next)}>{children.text}</button>
         )}
