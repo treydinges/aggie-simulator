@@ -1,9 +1,11 @@
 import './App.css';
+import Options from './Options.js';
+import { DATA } from './constants';
 
 function App() {
   return (
     <div className="App">
-      <h1>Howdy world</h1>
+      <Options options_data={DATA} />
     </div>
   );
 }
