@@ -13,15 +13,15 @@ class Option extends React.Component {
 
         <iframe
           src={"https://www.youtube.com/embed/" + this.props.item.video_id + "?autoplay=1&playlist=" + this.props.item.video_id + "&loop=1"}
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; encrypted-media"
-          allowfullscreen
+          allowFullScreen
           title="video"
         />
 
         <br></br>
-        {this.props.item.options.map((children) =>
-          <button onClick={() => this.onTrigger(children.next)}>{children.text}</button>
+        {this.props.item.options.map((children, index) =>
+          <button key={this.props.item.id + index} onClick={() => this.onTrigger(children.next)}>{children.text}</button>
         )}
       </div>
     );
