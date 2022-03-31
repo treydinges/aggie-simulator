@@ -21,7 +21,7 @@ class Option extends React.Component {
 
         <br></br>
         {this.props.item.options.map((children, index) =>
-          <button key={this.props.item.id + index} onClick={() => this.onTrigger(children.next)}>{children.text}</button>
+          <button key={index} onClick={() => this.onTrigger(children.next)}>{children.text}</button>
         )}
       </div>
     );
