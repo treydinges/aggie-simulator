@@ -25,10 +25,10 @@ class Option extends React.Component {
         <br></br>
         <div className="options">
           {this.props.item.options.map((children, index) =>
-            <a
+            <button
               key={index}
               onClick={() => this.onTrigger(children.next)}>{children.text}
-            </a>
+            </button>
           )}
         </div>
       </div>
