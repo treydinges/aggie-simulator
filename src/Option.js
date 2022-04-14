@@ -1,4 +1,5 @@
 import React from 'react';
+import ProgressBar from './ProgressBar';
 
 class Option extends React.Component {
   onTrigger = (next) => {
@@ -8,6 +9,10 @@ class Option extends React.Component {
   render() {
     return (
       <div>
+        <div className="overlay">
+          <ProgressBar hours={this.props.hours}></ProgressBar>
+        </div>
+
         <div className="overlay">
           <h2>{this.props.item.label}</h2>
         </div>

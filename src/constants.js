@@ -3,6 +3,7 @@ export const DATA = [
     id: "1",
     label: "Option 1",
     video_id: "AU84OFjll9Q",
+    hours: 0,
     options: [
       {
         text: "child1 - sends to option 2",
@@ -14,7 +15,7 @@ export const DATA = [
       },
       {
         text: "child3 - sends to option 2",
-        next: 1,
+        next: -1,
       },
     ],
   },
@@ -22,6 +23,7 @@ export const DATA = [
     id: "2",
     label: "Option 2",
     video_id: "FGCGETlTSlc",
+    hours: 6,
     options: [
       {
         text: "child1 - sends to option 1",
