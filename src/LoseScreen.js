@@ -3,7 +3,7 @@ import React from 'react';
 class LoseScreen extends React.Component {
   render() {
     return (
-      <div>
+      <div className='whiteText'>
         <h2>You LOSE!</h2>
       </div>
     )

@@ -98,8 +98,9 @@ iframe {
 .overlay h2 {
   background: var(--color-black-1);
   color: var(--color-white);
-  margin: 10px auto;
+  margin: 10px 15%;
   padding: 5px 15px;
+  opacity: 50%;
 }
 
 .options {
@@ -134,4 +135,8 @@ iframe {
 
 .progress span {
   background-color: var(--color-red);
+}
+
+.whiteText {
+  color: white;
 }
