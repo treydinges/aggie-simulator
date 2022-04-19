@@ -21,11 +21,11 @@ class Options extends React.Component {
     return(
       <div>
         {
+          this.state.hours >= 90 ?
+          <WinScreen></WinScreen>
+          :
           this.state.idx === -1 ?
             <LoseScreen></LoseScreen>
-            :
-            this.state.hours >= 90 ?
-            <WinScreen></WinScreen>
             :
             <Option item={this.data[idx]} parentCallback={this.handleCallback} hours={this.state.hours}/>
         }
