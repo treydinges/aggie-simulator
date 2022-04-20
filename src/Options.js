@@ -25,7 +25,7 @@ class Options extends React.Component {
           <WinScreen></WinScreen>
           :
           this.state.idx === -1 ?
-            <LoseScreen></LoseScreen>
+            <LoseScreen finalHours={this.state.hours}></LoseScreen>
             :
             <Option item={this.data[idx]} parentCallback={this.handleCallback} hours={this.state.hours}/>
         }

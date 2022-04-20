@@ -186,7 +186,8 @@ export const DATA = [
   },
   {
     id: "13", // friends get you drunk and expelled
-    label: `Your friends suggest getting some drinks and having a party. Y'all are all underage but you go along with it anyway... Later in the night the party gets broken up and everyone is caught!`,
+    label: `Your friends suggest getting some drinks and having a party. Y'all are all underage but you go along with it anyway...
+    Later in the night the party gets broken up and everyone is caught and expelled!`,
     video_id: "kNM8GcIyKDc?autoplay=1&controls=0",
     hours: 0,
     options: [
