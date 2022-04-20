@@ -1,9 +1,9 @@
 export const DATA = [
   {
-    id: "0",
+    id: "0",  // welcome - tamu fly over video
     label: `Congratulations! In recognition of your academic and personal achievements, I'm pleased to inform you of your admission to Texas A&M University College Station for the Fall 2022 semester. You have been admitted to the College of Engineering with a major in General Engineering. As a member of the Fightin' Texas Aggie Class of 2026, we welcome you to the Aggie family and to our proud tradition of leadership and academic excellence! Do you accept this offer?`,
-    video_id: "",
-    hours: 0,
+    video_id: "KY94iiybtQk?autoplay=1&controls=0",
+    hours: 89,
     options: [
       {
         text: "Yes",
@@ -19,7 +19,7 @@ export const DATA = [
     id: "1", // welcome video
     label: `Welcome to Aggieland! As a Fightin' Texas Aggie, it is important to know where your resources are and how they can be used. My name is (NPC name) and I will be your guide and advisor throughout your undergraduate career. I'm eager to show you around campus if you would like to take a tour.
     Would you like to take a tour of campus?`,
-    video_id: "",
+    video_id: "GbgoVYnjyJg?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -33,9 +33,9 @@ export const DATA = [
     ],
   },
   {
-    id: "2", // campus tour video
-    label: `Campus Tour Video`,
-    video_id: "",
+    id: "2", // campus tour video - 1:55 to 3:40
+    label: ``,
+    video_id: "MPj3jEFxZeI?start=115&end=220&autoplay=1&controls=0",
     hours: 5,
     options: [
       {
@@ -57,10 +57,10 @@ export const DATA = [
     ],
   },
   {
-    id: "4", // dorm tour video? (yes on campus tour)
-    label: `Welcome to Mosher! This will be your dorm for the year. Here you can find group study spaces, a dining hall in the Commons, and many students who are engineers just like you. But don’t get too distracted; your classes begin tomorrow!
+    id: "4", // dorm tour video? (yes on campus tour) - start 0:06
+    label: `Welcome to Hullabaloo! This will be your dorm for the year. Here you can find group study spaces, a dining hall in the Commons, and many students who are engineers just like you. But don’t get too distracted; your classes begin tomorrow!
     Do you set an alarm for tomorrow?`,
-    video_id: "",
+    video_id: "_BOdEeZmns0?start=6&autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -74,10 +74,10 @@ export const DATA = [
     ],
   },
   {
-    id: "5", // dorm tour video? (no on campus tour)
-    label: `Welcome to Mosher! This will be your dorm for the year. Here you can find group study spaces, a dining hall in the Commons, and many students who are engineers just like you. But don’t get too distracted; your classes begin tomorrow!
+    id: "5", // dorm tour video? (no on campus tour) - start 0:06
+    label: `Welcome to Hullabaloo! This will be your dorm for the year. Here you can find group study spaces, a dining hall in the Commons, and many students who are engineers just like you. But don’t get too distracted; your classes begin tomorrow!
     Do you set an alarm for tomorrow?`,
-    video_id: "",
+    video_id: "_BOdEeZmns0?start=6&autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -92,8 +92,8 @@ export const DATA = [
   },
   {
     id: "6", // Gets to class early video
-    label: `Whew! That was close. You made it to class with just one minute to spare.`,
-    video_id: "",
+    label: `Your alarm rings in the morning and you wake up on time! You catch the morning bus to class no problem.`,
+    video_id: "7t7xdfj7Giw?autoplay=1&controls=0",
     hours: 5,
     options: [
       {
@@ -104,8 +104,8 @@ export const DATA = [
   },
   {
     id: "7", // Finds class late video
-    label: `Shhhh, you’re late and you need to sneak in quietly. You better set your alarm next time so you don’t miss class.`,
-    video_id: "",
+    label: `You wake up late and missed your bus! Better hurry if you're going to make class.`,
+    video_id: "UmISVJZ3ODU?autoplay=1&controls=0",
     hours: 3,
     options: [
       {
@@ -115,9 +115,9 @@ export const DATA = [
     ],
   },
   {
-    id: "8", // Cant find calss - gives up video
-    label: `cant find class video`,
-    video_id: "",
+    id: "8", // sleeping in - start 1hr
+    label: `You sleep in and miss class...`,
+    video_id: "4viE-XWOz3g?start=3600&autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -127,10 +127,10 @@ export const DATA = [
     ],
   },
   {
-    id: "9", // Hang out with friends
+    id: "9", // Hang out with friends - FILLER VIDEO FIXME?
     label: `Alright! You made it through syllabus week! Hour after hour of grading systems, attendance policies and FERPA have exhausted you. How about you relax this weekend, you've earned it!
     Do you stay home and watch a movie or go out with friends?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=1800",
     hours: 3,
     options: [
       {
@@ -146,7 +146,7 @@ export const DATA = [
   {
     id: "10", // Watch movie
     label: `Good choice. A movie is always a nice way to take a break from the busyness of college. I see you’ve chosen to watch High School Musical…homesick much?`,
-    video_id: "",
+    video_id: "0qj67KE5VXI?autoplay=1&controls=0",
     hours: 4,
     options: [
       {
@@ -156,10 +156,10 @@ export const DATA = [
     ],
   },
   {
-    id: "11", // Go out with friends
+    id: "11", // Go out with friends   - FILLER VIDEO FIXME?
     label: `Awesome! You meet up with friends and they want to know what the plan is?
     Do you have any ideas?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=120",
     hours: 2,
     options: [
       {
@@ -174,8 +174,8 @@ export const DATA = [
   },
   {
     id: "12", // go out to get food video
-    label: `Get food video`,
-    video_id: "",
+    label: ``,
+    video_id: "QxGVgXf_LNk?autoplay=1&controls=0",
     hours: 2,
     options: [
       {
@@ -186,8 +186,8 @@ export const DATA = [
   },
   {
     id: "13", // friends get you drunk and expelled
-    label: `friends get you drunk and expelled video`,
-    video_id: "",
+    label: `Your friends suggest getting some drinks and having a party. Y'all are all underage but you go along with it anyway... Later in the night the party gets broken up and everyone is caught!`,
+    video_id: "kNM8GcIyKDc?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -197,9 +197,9 @@ export const DATA = [
     ],
   },
   {
-    id: "14", // Midterms are approaching video
-    label: `midterms are approaching video`,
-    video_id: "",
+    id: "14", // Midterms are approaching video  - start 43s
+    label: `The semester is flying by. It's almost time for midterms!`,
+    video_id: "8fuoNImcGHQ?autoplay=1&controls=0&start=43",
     hours: 0,
     options: [
       {
@@ -209,10 +209,10 @@ export const DATA = [
     ],
   },
   {
-    id: "15", // Study for midterms
+    id: "15", // Study for midterms  - FILLER VIDEO FIXME?
     label: `You’re doing so well! Seven weeks in and you’re starting to get an idea of which engineering discipline you want to study. But first, you have to get through midterms. You’ve done well on all of your assignments, so you don’t really need to study but it could help.
     Do you choose to study?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=200",
     hours: 0,
     options: [
       {
@@ -227,8 +227,8 @@ export const DATA = [
   },
   {
     id: "16", // Study video
-    label: `study video`,
-    video_id: "",
+    label: ``,
+    video_id: "sMtRyNLlAQk?autoplay=1&controls=0",
     hours: 8,
     options: [
       {
@@ -240,7 +240,7 @@ export const DATA = [
   {
     id: "17", // Northgate video
     label: `northgate video`,
-    video_id: "",
+    video_id: "sd-9-0T37CU?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -253,7 +253,7 @@ export const DATA = [
     id: "18", // Apply for ETAM
     label: `The semester goes by fast! It's already time to apply for the ETAM.
     What major are you going to choose?`,
-    video_id: "",
+    video_id: "43-ipUeG6r0?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -276,8 +276,8 @@ export const DATA = [
   },
   {
     id: "19", // Comp sci acceptance video
-    label: `comp sci acceptance video`,
-    video_id: "",
+    label: `You get into computer science, congratulations!`,
+    video_id: "XYyEFlWC6ZE?autoplay=1&controls=0",
     hours: 6,
     options: [
       {
@@ -288,8 +288,8 @@ export const DATA = [
   },
   {
     id: "20", // mech eng acceptance video
-    label: `mech eng video`,
-    video_id: "",
+    label: `You get in to mechanical engineering, congratulations!`,
+    video_id: "Ya9erIAQEOU?autoplay=1&controls=0",
     hours: 5,
     options: [
       {
@@ -300,8 +300,8 @@ export const DATA = [
   },
   {
     id: "21", // civ eng acceptance video
-    label: `civ eng video`,
-    video_id: "",
+    label: `You get in to civil engineering, congratulations!`,
+    video_id: "Ya9erIAQEOU?autoplay=1&controls=0",
     hours: 4,
     options: [
       {
@@ -312,8 +312,8 @@ export const DATA = [
   },
   {
     id: "22", // id acceptance video
-    label: `id acceptance video`,
-    video_id: "",
+    label: `You get in to industrial distribution... but why?`,
+    video_id: "Ya9erIAQEOU?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -326,7 +326,7 @@ export const DATA = [
     id: "23", // sophomore year intro video
     label: `Howdy! It is time for sophomore year!
     Do you choose to come back for this year?`,
-    video_id: "",
+    video_id: "xYQYAOZftgc?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -340,9 +340,9 @@ export const DATA = [
     ],
   },
   {
-    id: "24", // Howdy Week
+    id: "24", // Howdy Week  - FILLER VIDEO FIXME?
     label: `Now that you are coming back for sophomore year, do you give yourself some time to move in before Howdy Week and prep for the fall semester?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=300",
     hours: 0,
     options: [
       {
@@ -358,7 +358,7 @@ export const DATA = [
   {
     id: "25", // move in early video
     label: `Congrats! You moved into your new apartment and were able to get all your groceries and school supplies!`,
-    video_id: "",
+    video_id: "hwgsrGRXxAo?autoplay=1&controls=0",
     hours: 5,
     options: [
       {
@@ -370,7 +370,7 @@ export const DATA = [
   {
     id: "26", // move in late video
     label: `Oh no! Everyone's parents came into town and bought everything from all the stores! Let's hope someone in class has a pencil you can borrow.`,
-    video_id: "",
+    video_id: "lOQoD5Stv8w?autoplay=1&controls=0",
     hours: 1,
     options: [
       {
@@ -380,10 +380,10 @@ export const DATA = [
     ],
   },
   {
-    id: "27", // syllabus week
+    id: "27", // syllabus week  // FILLER VIDEO FIXME?
     label: `It is now syllabus week. Now that you are a sophomore year, you know a lot more about college.
     Do you attend the syllabus week of classes?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=400",
     hours: 0,
     options: [
       {
@@ -400,7 +400,7 @@ export const DATA = [
     id: "28", // get ahead on work video
     label: `Nice! You are ahead on your work, so you have a lot more time to hang out with your friends. Since you are ahead of schedule for your assignments, you have some time to go to a football game.
     Will you be part of the 12th man this Saturday?`,
-    video_id: "",
+    video_id: "QI5crmoMWWw?autoplay=1&controls=0",
     hours: 5,
     options: [
       {
@@ -417,7 +417,7 @@ export const DATA = [
     id: "29", // northgate video
     label: `Looks like you know what you're doing for school and when out to Northgate.
     Now that you've had some fun, are you going to your next class?`,
-    video_id: "",
+    video_id: "pdxTsdJ8yy4?autoplay=1&controls=0",
     hours: 2,
     options: [
       {
@@ -431,9 +431,9 @@ export const DATA = [
     ],
   },
   {
-    id: "30", // bama football game video
+    id: "30", // bama football game video - start 235s FIXME
     label: `What a game! A&M beat the hell out of Bama, and everyone stormed the field.`,
-    video_id: "",
+    video_id: "WL_AZll1ieI?autoplay=1&controls=0&start=235",
     hours: 5,
     options: [
       {
@@ -445,7 +445,7 @@ export const DATA = [
   {
     id: "31", // study video
     label: `I mean... I guess thats cool too.`,
-    video_id: "",
+    video_id: "uZTuXbZtHoI?autoplay=1&controls=0",
     hours: 3,
     options: [
       {
@@ -457,7 +457,7 @@ export const DATA = [
   {
     id: "32", // test video
     label: `Good thing you went to class! You had a test. Good luck!`,
-    video_id: "",
+    video_id: "h28SWdAwpOA?autoplay=1&controls=0",
     hours: 13,
     options: [
       {
@@ -467,10 +467,10 @@ export const DATA = [
     ],
   },
   {
-    id: "33", // career fair
+    id: "33", // career fair  // FILLER VIDEO FIXME?
     label: `Now that you have taken a few classes and gained some skills during your freshman year, it’s time to try to get an internship at the SEC Career Fair -
     do you decide to attend?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=500",
     hours: 0,
     options: [
       {
@@ -485,8 +485,8 @@ export const DATA = [
   },
   {
     id: "34", // good internship video
-    label: `Congrats on locking in such a great internship!`,
-    video_id: "",
+    label: `You get chatting with a recruiter and he offers you a job on the spot. Congrats on locking in such a great internship!`,
+    video_id: "VC2rruyinL4?autoplay=1&controls=0",
     hours: 4,
     options: [
       {
@@ -498,7 +498,7 @@ export const DATA = [
   {
     id: "35", // bad internship video
     label: `You took another route and decided to apply online instead of going to the career fair. Turns out there weren't many good opportunities left.`,
-    video_id: "",
+    video_id: "6EiAW72epUI?autoplay=1&controls=0",
     hours: 1,
     options: [
       {
@@ -508,10 +508,10 @@ export const DATA = [
     ],
   },
   {
-    id: "36", // midterm video
+    id: "36", // midterm video  // FILLER VIDEO FIXME?
     label: `The semester is halfway through, and those projects and midterms are coming up quickly. Your exam is tomorrow.
     Do you choose to study for the exam that is worth 30% of your grade?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=600",
     hours: 0,
     options: [
       {
@@ -528,7 +528,7 @@ export const DATA = [
     id: "37", // studying with friends video
     label: `Good choice! You are sure to get an A on this exam. Your exam is tomorrow at 8am. Are you going to stay up late, or
     will you make sure you get a good night's sleep?`,
-    video_id: "",
+    video_id: "sMtRyNLlAQk?autoplay=1&controls=0",
     hours: 6,
     options: [
       {
@@ -545,7 +545,7 @@ export const DATA = [
     id: "38", // netflix video
     label: `Looks like your going to watch Netlfix. Your exam is tomorrow at 8am. Are you going to stay up late, or
     will you make sure you get a good night's sleep?`,
-    video_id: "",
+    video_id: "GV3HUDMQ-F8?autoplay=1&controls=0",
     hours: 1,
     options: [
       {
@@ -561,7 +561,7 @@ export const DATA = [
   {
     id: "39", // good grade video
     label: `Nice! You aced this test. Looks like you're on track for that 4.0.`,
-    video_id: "",
+    video_id: "mY1qzQlFNiM?autoplay=1&controls=0",
     hours: 2,
     options: [
       {
@@ -571,10 +571,10 @@ export const DATA = [
     ],
   },
   {
-    id: "40", // jedfest video
+    id: "40", // jedfest video  // FILLER VIDEO FIXME?
     label: `You pass Jedfest on your way to class, and it looks like there's quite the crowd.
     Do you skip class to go see Brother Jed and Sister Cindy in Academic Plaza?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=700",
     hours: 0,
     options: [
       {
@@ -590,7 +590,7 @@ export const DATA = [
   {
     id: "41", // brother jed bingo video
     label: `That was quite the afternoon! You missed the professor's attendance bonus and didn't make the Dean's List, but you still made it to junior year!`,
-    video_id: "",
+    video_id: "NCRKM6O3IJs?autoplay=1&controls=0",
     hours: 2,
     options: [
       {
@@ -602,7 +602,7 @@ export const DATA = [
   {
     id: "42", // deans list video
     label: `That last class you attended gave you perfect attendance, which your professor rewarded with an attendance bonus! What an end to sophomore year by making the Dean's List! Onward to junior year `,
-    video_id: "",
+    video_id: "6LYLn9QQsXQ?autoplay=1&controls=0",
     hours: 4,
     options: [
       {
@@ -615,7 +615,7 @@ export const DATA = [
     id: "43", // junior year intro video
     label: `You have completed two years of your undergraduate degree!
     Do you choose to continue for your junior year?`,
-    video_id: "",
+    video_id: "xYQYAOZftgc?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -629,10 +629,10 @@ export const DATA = [
     ],
   },
   {
-    id: "44", // welcome back video
+    id: "44", // welcome back video // FILLER VIDEO FIXME?
     label: `Howdy! We're so glad you're still attending Texas A&M. You're so close to earning your Aggie Ring, and we're here to help you do just that. There's no time to waste, classes start today!
     Do you want to go to class during syllabus week?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=800",
     hours: 0,
     options: [
       {
@@ -649,7 +649,7 @@ export const DATA = [
     id: "45", // attend syllabus week football game video
     label: `Good idea. Better start on the right foot and show your professors that you’re here to learn and take your classes seriously. The first Aggie football game of the year is this weekend! Your friends want to pull tickets and know that this is the year to get good seats. However, none of your friends can camp overnight to ensure that your group gets a good spot in line. You know that you have an exam the next day, but you're pretty confident that it won't be too hard.
     Do you camp out at Kyle Field?`,
-    video_id: "",
+    video_id: "j-FEklmGx10?autoplay=1&controls=0",
     hours: 1,
     options: [
       {
@@ -666,7 +666,7 @@ export const DATA = [
     id: "46", // do not attend syllabus week football game video
     label: `Not the best start to the semester, but you’ll be fine. After all, what could you have missed during the first week? The first Aggie football game of the year is this weekend! Your friends want to pull tickets and know that this is the year to get good seats. However, none of your friends can camp overnight to ensure that your group gets a good spot in line. You know that you have an exam the next day, but you’re pretty confident that it won’t be too hard.
     Do you camp out at Kyle Field?`,
-    video_id: "",
+    video_id: "j-FEklmGx10?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -680,10 +680,10 @@ export const DATA = [
     ],
   },
   {
-    id: "47", // attend football game career fair video
+    id: "47", // attend football game career fair video // FILLER VIDEO FIXME?
     label: `You camp out to pull tickets for your group and lose quite a bit of sleep. The exam proves more difficult than expected and you barely pass. You check your email and see an announcement for the engineering career fair. What a great opportunity! This is your time to showcase your knowledge and experience to many engineering companies. Getting an internship is critical to building your resume and this is where it begins.
     Do you attend the career fair?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=900",
     hours: 1,
     options: [
       {
@@ -697,10 +697,10 @@ export const DATA = [
     ],
   },
   {
-    id: "48",// do not attend football game career fair video
+    id: "48",// do not attend football game career fair video // FILLER VIDEO FIXME?
     label: `You decide not to camp out because being rested for your exam is more important than having the best seats in the stadium. You get an A on the exam and set yourself up for success this semester. You check your email and see an announcement for the engineering career fair. What a great opportunity! This is your time to showcase your knowledge and experience to many engineering companies. Getting an internship is critical to building your resume and this is where it begins.
     Do you attend the career fair?`,
-    video_id: "",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=1000",
     hours: 3,
     options: [
       {
@@ -714,10 +714,10 @@ export const DATA = [
     ],
   },
   {
-    id: "49", // attend career fair midterm video
+    id: "49", // attend career fair midterm video // start - 54s
     label: `Great! You attend and have a few strong connections with recruiters. You apply for the internship positions, and they tell you to expect an email within the next month with a response. Midterms are quickly approaching and you have to decide how much time to spend studying for each class. Right now, you have two classes that are at risk of being C’s and two that are at risk of dropping to B’s.
     How do you study?`,
-    video_id: "",
+    video_id: "y9fMsoeDhYE?autoplay=1&controls=0&start=54",
     hours: 5,
     options: [
       {
@@ -742,7 +742,7 @@ export const DATA = [
     id: "50", // do not attend career fair midterm video
     label: `You missed out on a prime opportunity to put your name out there, but there are always other ways to find work experience. Midterms are quickly approaching and you have to decide how much time to spend studying for each class. Right now, you have two classes that are at risk of being C’s and two that are at risk of dropping to B’s.
     How do you study?`,
-    video_id: "",
+    video_id: "o1IwudscCts?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -767,7 +767,7 @@ export const DATA = [
     id: "51", // dont study programming assignment
     label: `Bad idea. Your midterms were more difficult than you expected and you failed one of them. You’ll need to work hard for the rest of the semester to make up for this. Now that midterms have passed, you can put your focus into your programming assignment that has already taken too much of your time to understand. You work for hours on end to make barely any progress, and frustration sets in. You ask your classmates for help, but none of them respond. Ultimately, you look for help online and come across an alumni’s assignment for the same class that is posted on Github. This could save your grade and finally put an end to this painful assignment.
     Do you use the Github solution?`,
-    video_id: "",
+    video_id: "yCyUTiMoJMk?autoplay=1&controls=0",
     hours: -3,
     options: [
       {
@@ -784,7 +784,7 @@ export const DATA = [
     id: "52", // only bad classes programming assignment
     label: `Good idea; you need to pass all of your classes, so focusing on the lowest grades is smart. You do well enough to not have to worry about failing right now. Now that midterms have passed, you can put your focus into your programming assignment that has already taken too much of your time to understand. You work for hours on end to make barely any progress, and frustration sets in. You ask your classmates for help, but none of them respond. Ultimately, you look for help online and come across an alumni’s assignment for the same class that is posted on Github. This could save your grade and finally put an end to this painful assignment.
     Do you use the Github solution?`,
-    video_id: "",
+    video_id: "yCyUTiMoJMk?autoplay=1&controls=0",
     hours: 3,
     options: [
       {
@@ -801,7 +801,7 @@ export const DATA = [
     id: "53", // all classes programming assignment
     label: `Great idea! Each class is important, and you understand that none of them can be ignored. You end up getting A’s on all of your midterm exams. Now that midterms have passed, you can put your focus into your programming assignment that has already taken too much of your time to understand. You work for hours on end to make barely any progress, and frustration sets in. You ask your classmates for help, but none of them respond. Ultimately, you look for help online and come across an alumni’s assignment for the same class that is posted on Github. This could save your grade and finally put an end to this painful assignment.
     Do you use the Github solution?`,
-    video_id: "",
+    video_id: "yCyUTiMoJMk?autoplay=1&controls=0",
     hours: 5,
     options: [
       {
@@ -818,7 +818,7 @@ export const DATA = [
     id: "54", // only good classes programming assignment
     label: `Ouch. Not the best approach. Your lower grades fall even more, and now you’re at risk of failing two classes. Now that midterms have passed, you can put your focus into your programming assignment that has already taken too much of your time to understand. You work for hours on end to make barely any progress, and frustration sets in. You ask your classmates for help, but none of them respond. Ultimately, you look for help online and come across an alumni’s assignment for the same class that is posted on Github. This could save your grade and finally put an end to this painful assignment.
     Do you use the Github solution?`,
-    video_id: "",
+    video_id: "yCyUTiMoJMk?autoplay=1&controls=0",
     hours: 1,
     options: [
       {
@@ -833,9 +833,9 @@ export const DATA = [
   },
   {
     id: "55", // cheat internship offer
-    label: `You submit the Github solution after changing some comments and reformatting the code to look more like your own. However, the professor recognizes this code and knows that it is not your own work. The Honor Council gives you an F* for the course, and you have to retake it another semester. After three weeks of waiting for an email from any of the companies you spoke to at the career fair, you finally receive one! The email informs you that you have been given an offer for a summer internship. Though it is not with the company you preferred to work with, you know that this is a good opportunity. You must accept the offer within five days of the email.
+    label: `You submit the Github solution after changing some comments and reformatting the code to look more like your own. However, the professor recognizes this code and knows that it is not your own work. The Honor Council gives you an F* for the course, and you have to retake it another semester. YIKES! After three weeks of waiting for an email from any of the companies you spoke to at the career fair, you finally receive one! The email informs you that you have been given an offer for a summer internship. Though it is not with the company you preferred to work with, you know that this is a good opportunity. You must accept the offer within five days of the email.
     Do you accept the offer or wait to hear back from the other companies?`,
-    video_id: "",
+    video_id: "qTSAuwa3ehc?autoplay=1&controls=0",
     hours: -4,
     options: [
       {
@@ -852,7 +852,7 @@ export const DATA = [
     id: "56", // dont cheat internship offer
     label: `That was smart. No reason to plagiarize and risk the consequences. You get a C on the assignment which lowers your grade, but you’re on track to pass the class. After three weeks of waiting for an email from any of the companies you spoke to at the career fair, you finally receive one! The email informs you that you have been given an offer for a summer internship. Though it is not with the company you preferred to work with, you know that this is a good opportunity. You must accept the offer within five days of the email.
     Do you accept the offer or wait to hear back from the other companies?`,
-    video_id: "",
+    video_id: "qTSAuwa3ehc?autoplay=1&controls=0",
     hours: 4,
     options: [
       {
@@ -867,8 +867,9 @@ export const DATA = [
   },
   {
     id: "57", // accept internship finals
-    label: `Amazing! This will give you priceless experience in the workplace that will help you get a full-time offer after graduation. Finals are two weeks away, and you know that they will be difficult. Most of your finals will be cumulative. With so much time to study, you need to decide how to alot your time for your classes. You currently have one C, two B’s, and an A.`,
-    video_id: "",
+    label: `Amazing! This will give you priceless experience in the workplace that will help you get a full-time offer after graduation. Finals are two weeks away, and you know that they will be difficult. Most of your finals will be cumulative.
+    With so much time to study, you need to decide how to alot your time for your classes. You currently have one C, two B’s, and an A.`,
+    video_id: "LTIbnRVQ4M8?autoplay=1&controls=0",
     hours: 3,
     options: [
       {
@@ -895,8 +896,9 @@ export const DATA = [
   },
   {
     id: "58", // dont accept intership finals
-    label: `You turn down the offer in hopes of hearing back from your preferred company. The wait continues. Finals are two weeks away, and you know that they will be difficult. Most of your finals will be cumulative. With so much time to study, you need to decide how to alot your time for your classes. You currently have one C, two B’s, and an A.`,
-    video_id: "",
+    label: `You turn down the offer in hopes of hearing back from your preferred company. The wait continues. Finals are two weeks away, and you know that they will be difficult. Most of your finals will be cumulative.
+    With so much time to study, you need to decide how to alot your time for your classes. You currently have one C, two B’s, and an A.`,
+    video_id: "LTIbnRVQ4M8?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -924,7 +926,7 @@ export const DATA = [
   {
     id: "59", // dont study ending video
     label: `Bad idea. You decided to hang out with friends rather than studying and failed two of your courses because of that. Looks like you may not be getting your ring after all.`,
-    video_id: "",
+    video_id: "LNXNGVBcIFk?autoplay=1&controls=0",
     hours: -7,
     options: [
       {
@@ -936,7 +938,7 @@ export const DATA = [
   {
     id: "60", // only C's ending video
     label: `Not too bad! You focused all of your efforts into your hardest class to ensure you didn’t fail. While your other grades took a hit, you managed to pass each class this semester.`,
-    video_id: "",
+    video_id: "LNXNGVBcIFk?autoplay=1&controls=0",
     hours: 3,
     options: [
       {
@@ -948,7 +950,7 @@ export const DATA = [
   {
     id: "61", // C's and B's ending video
     label: `Well done! Your studying proved useful! You focused on the classes that were not an A, and you did well on all of your exams.`,
-    video_id: "",
+    video_id: "mY1qzQlFNiM?autoplay=1&controls=0",
     hours: 10,
     options: [
       {
@@ -960,7 +962,7 @@ export const DATA = [
   {
     id: "62", // A's and B's ending video
     label: `While you should have studied more for the class that you had a C in, you got lucky with easy exams. Congrats on finishing your semester!`,
-    video_id: "",
+    video_id: "mY1qzQlFNiM?autoplay=1&controls=0",
     hours: 6,
     options: [
       {
@@ -971,8 +973,8 @@ export const DATA = [
   },
   {
     id: "63", // all classes ending video
-    label: ``,
-    video_id: "",
+    label: `Whew! That was tiring. You exhausted yourself by spending hours on end studying for each class. With just enough energy to take your exams, you passed this semester with a lower GPA than usual…but you did still pass.`,
+    video_id: "LNXNGVBcIFk?autoplay=1&controls=0",
     hours: 4,
     options: [
       {

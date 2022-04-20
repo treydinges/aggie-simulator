@@ -1,6 +1,8 @@
 import React from 'react';
 import ProgressBar from './ProgressBar';
 
+// {"https://www.youtube.com/embed/" + this.props.item.video_id + "?autoplay=1&playlist=" + this.props.item.video_id + "&loop=1&controls=0"}
+
 class Option extends React.Component {
   onTrigger = (next) => {
     this.props.parentCallback(next);
@@ -19,7 +21,7 @@ class Option extends React.Component {
 
         <iframe
           className="video"
-          src={"https://www.youtube.com/embed/" + this.props.item.video_id + "?autoplay=1&playlist=" + this.props.item.video_id + "&loop=1&controls=0"}
+          src={"https://www.youtube.com/embed/" + this.props.item.video_id }
           frameBorder="0"
           allow="autoplay; encrypted-media"
           allowFullScreen
