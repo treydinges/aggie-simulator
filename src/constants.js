@@ -327,7 +327,7 @@ export const DATA = [
     id: "23", // sophomore year intro video
     label: `Howdy! It is time for sophomore year!
     Do you choose to come back for this year?`,
-    video_id: "xYQYAOZftgc?autoplay=1&controls=0",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=300",
     hours: 0,
     options: [
       {
@@ -343,7 +343,7 @@ export const DATA = [
   {
     id: "24", // Howdy Week  - FILLER VIDEO FIXME?
     label: `Now that you are coming back for sophomore year, do you give yourself some time to move in before Howdy Week and prep for the fall semester?`,
-    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=300",
+    video_id: "xYQYAOZftgc?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -616,7 +616,7 @@ export const DATA = [
     id: "43", // junior year intro video
     label: `You have completed two years of your undergraduate degree!
     Do you choose to continue for your junior year?`,
-    video_id: "xYQYAOZftgc?autoplay=1&controls=0",
+    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=800",
     hours: 0,
     options: [
       {
@@ -633,7 +633,7 @@ export const DATA = [
     id: "44", // welcome back video // FILLER VIDEO FIXME?
     label: `Howdy! We're so glad you're still attending Texas A&M. You're so close to earning your Aggie Ring, and we're here to help you do just that. There's no time to waste, classes start today!
     Do you want to go to class during syllabus week?`,
-    video_id: "1ZYbU82GVz4?autoplay=1&controls=0&start=800",
+    video_id: "xYQYAOZftgc?autoplay=1&controls=0",
     hours: 0,
     options: [
       {
@@ -890,7 +890,7 @@ export const DATA = [
         next: 62,
       },
       {
-        text: "Study for all classes.",
+        text: "Study for all classes",
         next: 63,
       },
     ],
@@ -919,7 +919,7 @@ export const DATA = [
         next: 62,
       },
       {
-        text: "Study for all classes.",
+        text: "Study for all classes",
         next: 63,
       },
     ],
